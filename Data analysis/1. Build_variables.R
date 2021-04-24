@@ -60,6 +60,7 @@ df$int_pre_eco <- as.numeric(as.character(df$int_pre_eco))
 df$int_pre_etat <- as.numeric(as.character(df$int_pre_etat))
 
 
+
 df_inter_int <- df %>%
   select(int_pre_dem,int_pre_fis,int_pre_eco,int_pre_etat)
 
